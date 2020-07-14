@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3F815224B58F23003DAE8E /* libIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F815124B58F1A003DAE8E /* libIos.a */; };
+		ED3F815324B58F2E003DAE8E /* libcryptopp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F814F24B58F1A003DAE8E /* libcryptopp.a */; };
+		ED3F815F24B5B78E003DAE8E /* iRukey in Resources */ = {isa = PBXBuildFile; fileRef = ED3F815E24B5B78E003DAE8E /* iRukey */; };
+		ED3F816124B5B796003DAE8E /* mVaccine in Resources */ = {isa = PBXBuildFile; fileRef = ED3F816024B5B796003DAE8E /* mVaccine */; };
+		ED3F816324B5B802003DAE8E /* libmVaccine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F816224B5B7F4003DAE8E /* libmVaccine.a */; };
+		ED4B973524B85112003F1442 /* mGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B973424B85112003F1442 /* mGuardSDK.framework */; };
 		EDFAC75824B2AA7E005C8426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC75724B2AA7E005C8426 /* AppDelegate.m */; };
 		EDFAC75B24B2AA7E005C8426 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC75A24B2AA7E005C8426 /* SceneDelegate.m */; };
 		EDFAC75E24B2AA7E005C8426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC75D24B2AA7E005C8426 /* ViewController.m */; };
@@ -15,23 +21,23 @@
 		EDFAC76624B2AA7F005C8426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFAC76424B2AA7F005C8426 /* LaunchScreen.storyboard */; };
 		EDFAC76924B2AA7F005C8426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC76824B2AA7F005C8426 /* main.m */; };
 		EDFAC77124B2AADB005C8426 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFAC77024B2AADB005C8426 /* WebKit.framework */; };
-		EDFAC77B24B2BE52005C8426 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC77A24B2BE52005C8426 /* WebViewController.m */; };
-		EDFAC78A24B2E44E005C8426 /* libIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFAC78824B2E38E005C8426 /* libIos.a */; };
-		EDFAC78B24B2E457005C8426 /* libcryptopp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFAC78724B2E383005C8426 /* libcryptopp.a */; };
-		EDFAC79724B2EB5A005C8426 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFAC79624B2EB5A005C8426 /* libc++.1.dylib */; };
-		EDFAC79824B2EB5A005C8426 /* libc++.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = EDFAC79624B2EB5A005C8426 /* libc++.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		EDFAC7AC24B306FB005C8426 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC7AA24B306FB005C8426 /* Document.m */; };
 		EDFAC7AD24B306FB005C8426 /* DocumentBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAC7AB24B306FB005C8426 /* DocumentBrowserViewController.m */; };
+		EDFDCA1C24B7FDB2005C2C34 /* AlertListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFDCA1B24B7FDB2005C2C34 /* AlertListViewController.m */; };
+		EDFDCA1E24B845B8005C2C34 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFDCA1D24B845AE005C2C34 /* libxml2.2.tbd */; };
+		EDFDCA2024B845D3005C2C34 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFDCA1F24B845CC005C2C34 /* libz.tbd */; };
+		EDFDCA2D24B84B4A005C2C34 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFDCA2C24B84B3F005C2C34 /* libc++.1.dylib */; };
+		EDFDCA2E24B84B4A005C2C34 /* libc++.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = EDFDCA2C24B84B3F005C2C34 /* libc++.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDFAC79924B2EB5A005C8426 /* Embed Libraries */ = {
+		EDFDCA3024B84B4B005C2C34 /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EDFAC79824B2EB5A005C8426 /* libc++.1.dylib in Embed Libraries */,
+				EDFDCA2E24B84B4A005C2C34 /* libc++.1.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +45,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED3F814F24B58F1A003DAE8E /* libcryptopp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcryptopp.a; path = reference/libcryptopp.a; sourceTree = "<group>"; };
+		ED3F815124B58F1A003DAE8E /* libIos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIos.a; path = reference/libIos.a; sourceTree = "<group>"; };
+		ED3F815E24B5B78E003DAE8E /* iRukey */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iRukey; sourceTree = "<group>"; };
+		ED3F816024B5B796003DAE8E /* mVaccine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mVaccine; sourceTree = "<group>"; };
+		ED3F816224B5B7F4003DAE8E /* libmVaccine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmVaccine.a; path = reference/libmVaccine.a; sourceTree = "<group>"; };
+		ED4B973324B84F18003F1442 /* NHFire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NHFire.entitlements; sourceTree = "<group>"; };
+		ED4B973424B85112003F1442 /* mGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mGuardSDK.framework; path = reference/mGuardSDK.framework; sourceTree = "<group>"; };
 		EDFAC75324B2AA7E005C8426 /* NHFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFAC75624B2AA7E005C8426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDFAC75724B2AA7E005C8426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,16 +65,15 @@
 		EDFAC76724B2AA7F005C8426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDFAC76824B2AA7F005C8426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDFAC77024B2AADB005C8426 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		EDFAC77924B2BE52005C8426 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		EDFAC77A24B2BE52005C8426 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		EDFAC78724B2E383005C8426 /* libcryptopp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcryptopp.a; path = NHFire/iRukey/libcryptopp.a; sourceTree = "<group>"; };
-		EDFAC78824B2E38E005C8426 /* libIos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIos.a; path = NHFire/iRukey/libIos.a; sourceTree = "<group>"; };
-		EDFAC78924B2E3D7005C8426 /* libIos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libIos.h; path = iRukey/libIos/libIos.h; sourceTree = "<group>"; };
-		EDFAC79624B2EB5A005C8426 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 		EDFAC7A824B306FB005C8426 /* DocumentBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentBrowserViewController.h; sourceTree = "<group>"; };
 		EDFAC7A924B306FB005C8426 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		EDFAC7AA24B306FB005C8426 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		EDFAC7AB24B306FB005C8426 /* DocumentBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserViewController.m; sourceTree = "<group>"; };
+		EDFDCA1A24B7FDB1005C2C34 /* AlertListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertListViewController.h; sourceTree = "<group>"; };
+		EDFDCA1B24B7FDB2005C2C34 /* AlertListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertListViewController.m; sourceTree = "<group>"; };
+		EDFDCA1D24B845AE005C2C34 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		EDFDCA1F24B845CC005C2C34 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EDFDCA2C24B84B3F005C2C34 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +82,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDFAC77124B2AADB005C8426 /* WebKit.framework in Frameworks */,
-				EDFAC78B24B2E457005C8426 /* libcryptopp.a in Frameworks */,
-				EDFAC78A24B2E44E005C8426 /* libIos.a in Frameworks */,
-				EDFAC79724B2EB5A005C8426 /* libc++.1.dylib in Frameworks */,
+				ED4B973524B85112003F1442 /* mGuardSDK.framework in Frameworks */,
+				EDFDCA2D24B84B4A005C2C34 /* libc++.1.dylib in Frameworks */,
+				ED3F815324B58F2E003DAE8E /* libcryptopp.a in Frameworks */,
+				EDFDCA2024B845D3005C2C34 /* libz.tbd in Frameworks */,
+				ED3F815224B58F23003DAE8E /* libIos.a in Frameworks */,
+				ED3F816324B5B802003DAE8E /* libmVaccine.a in Frameworks */,
+				EDFDCA1E24B845B8005C2C34 /* libxml2.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +115,15 @@
 		EDFAC75524B2AA7E005C8426 /* NHFire */ = {
 			isa = PBXGroup;
 			children = (
+				ED4B973324B84F18003F1442 /* NHFire.entitlements */,
+				EDFDCA1A24B7FDB1005C2C34 /* AlertListViewController.h */,
+				EDFDCA1B24B7FDB2005C2C34 /* AlertListViewController.m */,
+				ED3F816024B5B796003DAE8E /* mVaccine */,
+				ED3F815E24B5B78E003DAE8E /* iRukey */,
 				EDFAC7A924B306FB005C8426 /* Document.h */,
 				EDFAC7AA24B306FB005C8426 /* Document.m */,
 				EDFAC7A824B306FB005C8426 /* DocumentBrowserViewController.h */,
 				EDFAC7AB24B306FB005C8426 /* DocumentBrowserViewController.m */,
-				EDFAC78924B2E3D7005C8426 /* libIos.h */,
-				EDFAC77924B2BE52005C8426 /* WebViewController.h */,
-				EDFAC77A24B2BE52005C8426 /* WebViewController.m */,
 				EDFAC75624B2AA7E005C8426 /* AppDelegate.h */,
 				EDFAC75724B2AA7E005C8426 /* AppDelegate.m */,
 				EDFAC75924B2AA7E005C8426 /* SceneDelegate.h */,
@@ -124,9 +142,13 @@
 		EDFAC76F24B2AADB005C8426 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDFAC79624B2EB5A005C8426 /* libc++.1.dylib */,
-				EDFAC78824B2E38E005C8426 /* libIos.a */,
-				EDFAC78724B2E383005C8426 /* libcryptopp.a */,
+				ED4B973424B85112003F1442 /* mGuardSDK.framework */,
+				EDFDCA2C24B84B3F005C2C34 /* libc++.1.dylib */,
+				EDFDCA1F24B845CC005C2C34 /* libz.tbd */,
+				EDFDCA1D24B845AE005C2C34 /* libxml2.2.tbd */,
+				ED3F816224B5B7F4003DAE8E /* libmVaccine.a */,
+				ED3F814F24B58F1A003DAE8E /* libcryptopp.a */,
+				ED3F815124B58F1A003DAE8E /* libIos.a */,
 				EDFAC77024B2AADB005C8426 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -142,7 +164,7 @@
 				EDFAC74F24B2AA7E005C8426 /* Sources */,
 				EDFAC75024B2AA7E005C8426 /* Frameworks */,
 				EDFAC75124B2AA7E005C8426 /* Resources */,
-				EDFAC79924B2EB5A005C8426 /* Embed Libraries */,
+				EDFDCA3024B84B4B005C2C34 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -193,6 +215,8 @@
 				EDFAC76624B2AA7F005C8426 /* LaunchScreen.storyboard in Resources */,
 				EDFAC76324B2AA7F005C8426 /* Assets.xcassets in Resources */,
 				EDFAC76124B2AA7E005C8426 /* Main.storyboard in Resources */,
+				ED3F815F24B5B78E003DAE8E /* iRukey in Resources */,
+				ED3F816124B5B796003DAE8E /* mVaccine in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,8 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDFAC7AC24B306FB005C8426 /* Document.m in Sources */,
+				EDFDCA1C24B7FDB2005C2C34 /* AlertListViewController.m in Sources */,
 				EDFAC75E24B2AA7E005C8426 /* ViewController.m in Sources */,
-				EDFAC77B24B2BE52005C8426 /* WebViewController.m in Sources */,
 				EDFAC7AD24B306FB005C8426 /* DocumentBrowserViewController.m in Sources */,
 				EDFAC75824B2AA7E005C8426 /* AppDelegate.m in Sources */,
 				EDFAC76924B2AA7F005C8426 /* main.m in Sources */,
@@ -351,9 +375,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NHFire/NHFire.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T2A2N3GJ8;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/reference",
+					"$(PROJECT_DIR)/reference/mGuardSDK.framework",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NHFire/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,11 +394,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NHFire/iRukey",
+					"$(PROJECT_DIR)/reference",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nonghyup.nhfire.Demo;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonghyup.nhfire.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64e armv6 armv6s arm64";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -375,9 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NHFire/NHFire.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T2A2N3GJ8;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/reference",
+					"$(PROJECT_DIR)/reference/mGuardSDK.framework",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NHFire/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -387,11 +427,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NHFire/iRukey",
+					"$(PROJECT_DIR)/reference",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nonghyup.nhfire.Demo;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonghyup.nhfire.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64e armv6 armv6s arm64";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
