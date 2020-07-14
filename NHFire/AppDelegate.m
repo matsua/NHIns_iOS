@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <mGuardSDK/MDMApi.h>
 
 @interface AppDelegate ()
 
